@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Table_rollno";
+    var Roll_no = 2;
+    var Name = "Bibek Angdembe";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>Current date and time: @DateTime.Now</p>
+<p>Name : @Name</p>
+<p>Roll No : @Roll_no</p>
+<p>Multiplication table of @(Roll_no + 1):</p>
+<table>
+    @for (int i = 1; i <= 10; i++)
+    {
+        <tr>
+            <td>@(Roll_no + 1) * @i</td>
+            <td>=</td>
+            <td>@((Roll_no + 1) * i)</td>
+        </tr>
+    }
+</table>

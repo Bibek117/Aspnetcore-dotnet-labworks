@@ -1,0 +1,7 @@
+{
+    "dataworkspace.excludedProjects": [
+        "Lab20/consolecrud/consolecrud.sqlproj",
+        "gff/gff.sqlproj",
+        "Lab20/crud/crud.sqlproj"
+    ]
+}

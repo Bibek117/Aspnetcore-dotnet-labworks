@@ -1,0 +1,14 @@
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\bin\Debug\net6.0\lab_dotnet.exe
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\bin\Debug\net6.0\lab_dotnet.deps.json
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\bin\Debug\net6.0\lab_dotnet.runtimeconfig.json
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\bin\Debug\net6.0\lab_dotnet.dll
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\bin\Debug\net6.0\lab_dotnet.pdb
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\lab_dotnet.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\lab_dotnet.AssemblyInfoInputs.cache
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\lab_dotnet.AssemblyInfo.cs
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\lab_dotnet.csproj.CoreCompileInputs.cache
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\lab_dotnet.dll
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\refint\lab_dotnet.dll
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\lab_dotnet.pdb
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\lab_dotnet.genruntimeconfig.cache
+E:\Bsccsit\6th sem\.net\dot_netlab\lab_dotnet\obj\Debug\net6.0\ref\lab_dotnet.dll

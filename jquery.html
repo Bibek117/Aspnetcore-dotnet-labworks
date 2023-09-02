@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <span class="error" id="name-error"></span>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <span class="error" id="email-error"></span>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <span class="error" id="password-error"></span>
+        </div>
+        <div>
+            <input type="submit" value="Sign Up">
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#signup-form").submit(function(event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                // Reset previous error messages
+                $(".error").text("");
+
+                // Get form values
+                var name = $("#name").val();
+                var email = $("#email").val();
+                var password = $("#password").val();
+
+                // Perform validation
+                var isValid = true;
+
+                if (name === "") {
+                    $("#name-error").text("Name is required");
+                    isValid = false;
+                }
+
+                if (email === "") {
+                    $("#email-error").text("Email is required");
+                    isValid = false;
+                } else if (!isValidEmail(email)) {
+                    $("#email-error").text("Invalid email format");
+                    isValid = false;
+                }
+
+                if (password === "") {
+                    $("#password-error").text("Password is required");
+                    isValid = false;
+                }
+
+                // If all fields are valid, submit the form
+                if (isValid) {
+                    alert("Sign-up successful!");
+                    // You can perform an AJAX request here to submit the data to the server.
+                }
+            });
+
+            function isValidEmail(email) {
+                // Basic email validation using a regular expression
+                var emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
+                return emailRegex.test(email);
+            }
+        });
+    </script>
+</body>
+</html>

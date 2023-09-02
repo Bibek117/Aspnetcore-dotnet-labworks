@@ -1,0 +1,8 @@
+E:\Bsccsit\6th sem\.net\SecondLab\Lab28\obj\Debug\net7.0\Lab28.csproj.AssemblyReference.cache
+E:\Bsccsit\6th sem\.net\SecondLab\Lab28\obj\Debug\net7.0\Lab28.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bsccsit\6th sem\.net\SecondLab\Lab28\obj\Debug\net7.0\Lab28.AssemblyInfoInputs.cache
+E:\Bsccsit\6th sem\.net\SecondLab\Lab28\obj\Debug\net7.0\Lab28.AssemblyInfo.cs
+E:\Bsccsit\6th sem\.net\SecondLab\Lab28\obj\Debug\net7.0\Lab28.csproj.CoreCompileInputs.cache
+E:\Bsccsit\6th sem\.net\SecondLab\Lab28\obj\Debug\net7.0\Lab28.MvcApplicationPartsAssemblyInfo.cache
+E:\Bsccsit\6th sem\.net\SecondLab\Lab28\obj\Debug\net7.0\Lab28.RazorAssemblyInfo.cache
+E:\Bsccsit\6th sem\.net\SecondLab\Lab28\obj\Debug\net7.0\Lab28.RazorAssemblyInfo.cs

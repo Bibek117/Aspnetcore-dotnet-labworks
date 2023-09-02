@@ -1,0 +1,28 @@
+@addTagHelper * , Microsoft.AspNetCore.Mvc.TagHelpers;
+ @model Lab19.Models.Student; 
+
+
+<h2> Create Student Record</h2>
+<form asp-controller="Student" asp-action="Store" method="post">
+    <div class="form-group">
+        <label asp-for="StdID"></label>
+        <input asp-for="StdID" />
+        <span asp-validation-for="StdID" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name"  />
+        <span asp-validation-for="Name" ></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Faculty"></label>
+        <input asp-for="Faculty" class="form-control" />
+        <span asp-validation-for="Faculty" class="text-danger"></span>
+    </div>
+    <button type="submit" >Create</button>
+</form>
